@@ -1,0 +1,108 @@
+*{
+        box-sizing: border-box;
+        margin: 0px;
+        border: 0px;
+}
+    body > header{
+    background-color: #2f3640;
+    padding: 16px 0;
+    color: #f5f6fa;
+}
+    header .container{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+}
+    header li{
+        display: inline;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        margin-left: 16px;
+}
+    header li a{
+        color: #f5f6fa;
+        text-decoration: none;
+    }
+    .container {
+        width: 1300px;  
+        margin: 0 auto;
+}
+    .artigo{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+}
+    .artigo article img{
+       height: 220px;
+       width: 380px;
+       width: 100%;
+}
+    .artigo article{
+        width: 30%;
+}
+    section {
+        padding: 16px 0;
+}
+    section h2,
+    .artigo article{
+        margin-bottom: 16px;
+}
+    .artigo article h3{
+        margin-top: 8px;
+        margin-bottom: 8px;
+    
+}
+    .artigo article a{
+        background-color: blue;
+        color:#fff;
+        padding: 8px;
+        display: inline-block;
+        text-decoration: none;
+        font-weight: bold;
+        margin-top: 8px;
+    }
+    .artigo article a:hover {
+        text-decoration: underline;
+    }
+
+    .artigo article p,
+    .artigo article a {
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .artigo article h3{
+        font-size: 24px;
+    }
+    section h2 {
+        font-size: 32px;
+    }
+
+    #sports {
+        background-color: rgba(0, 255, 0, 0.1);
+    }
+
+    #sports .artigo article a {
+    background-color: #009432;
+    }
+    #economy {
+        background-color: #f8f59f;
+    }
+    #economy .artigo article a {
+        background-color: #ff9f1a;
+    }
+    
+    #entretenimento {
+        background-color: #22159c33;
+    }
+
+    #entretenimento .artigo article a {
+    background-color: #272443;
+    }
+    #tecnologia {
+        background-color: #7d0e4333;
+    }
+    #tecnologia .artigo article a {
+        background-color: #963463;
+    }
+    body time {
+        color: #c4c4c4;
+    }
